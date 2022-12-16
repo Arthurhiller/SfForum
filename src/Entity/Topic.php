@@ -25,7 +25,7 @@ class Topic
     private $titre;
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetime", options={"default": "CURRENT_TIMESTAMP"})
      */
     private $creationDate;
 
